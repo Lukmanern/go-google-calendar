@@ -24,11 +24,11 @@ func main() {
 		Description: "This is an example event",
 		Start: &calendar.EventDateTime{
 			DateTime: time.Now().Format(time.RFC3339),
-			TimeZone: "America/Los_Angeles",
+			TimeZone: "Asia/Jakarta",
 		},
 		End: &calendar.EventDateTime{
 			DateTime: time.Now().Add(time.Hour).Format(time.RFC3339),
-			TimeZone: "America/Los_Angeles",
+			TimeZone: "Asia/Jakarta",
 		},
 	}
 
